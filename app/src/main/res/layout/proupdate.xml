@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mbg"
+     >
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="80dp"
+        
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            
+
+            <EditText
+                android:id="@+id/etname01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Name "
+                android:inputType="textPersonName"
+               />
+
+    <EditText
+        android:id="@+id/etaddress01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Address "
+         >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etphn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etemail"
+        android:layout_below="@+id/etemail"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Phone Number "
+        android:inputType="phone"
+         />
+
+    <EditText
+        android:id="@+id/etuname01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="User Id "
+        android:inputType="textPersonName"
+         />
+    <EditText
+        android:id="@+id/etmail01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Email id"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/etpass01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Password "
+        android:inputType="textPassword"
+         />
+
+    <Button
+        android:id="@+id/btnupdatepr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:gravity="right"
+        android:onClick="updatepro"
+        android:text="Update Now"
+        android:background="@color/btn_colour"
+        android:padding="10dp"
+        android:textColor="@color/colour_white" />
+  
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvhead01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="UPDATE HERE "
+        android:textSize="20dp"
+        android:textColor="@color/btn_colour"
+        android:textStyle="bold" />
+
+</RelativeLayout>

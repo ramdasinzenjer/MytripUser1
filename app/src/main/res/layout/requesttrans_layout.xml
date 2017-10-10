@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mbg" >
+
+    <EditText
+        android:id="@+id/editsrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editdest"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="116dp"
+        android:ems="10"
+        android:hint="Source :"
+        android:textColorHint="@color/colour_white"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editdest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editsrc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="Destination :"
+        android:textColorHint="@color/colour_white"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnrqst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editdest"
+        android:layout_below="@+id/editdest"
+        android:layout_marginTop="47dp"
+        android:background="@color/btn_colour"
+        android:padding="10dp"
+        android:textColor="@color/colour_white"
+        android:textStyle="bold"
+        android:text="Request Ride" />
+
+    <ImageButton
+        android:id="@+id/img_mlocbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editsrc"
+        android:src="@android:drawable/ic_menu_mylocation" />
+
+    <ImageButton
+        android:id="@+id/img_mlocdest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editdest"
+        android:src="@android:drawable/ic_dialog_map" />
+
+</RelativeLayout>

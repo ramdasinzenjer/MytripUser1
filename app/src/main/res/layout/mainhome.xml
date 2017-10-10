@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mbg" >
+
+    <Button
+        android:id="@+id/btnupp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="Update Profile"
+        android:textColor="@color/colour_white"
+        android:background="@color/btn_colour"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnfindrk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnupp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:padding="10dp"
+        android:textColor="@color/colour_white"
+        android:background="@color/btn_colour"
+        android:textStyle="bold"
+        android:text="Find Nearby Rickshaws" />
+
+    <ImageView
+        android:id="@+id/imagebtnalert"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnupp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/help_me" />
+
+    <Button
+        android:id="@+id/mbt_lgout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/btnupp"
+        android:background="@color/btn_colour"
+        android:textColor="@color/colour_white"
+        android:text="Log Out" />
+
+</RelativeLayout>

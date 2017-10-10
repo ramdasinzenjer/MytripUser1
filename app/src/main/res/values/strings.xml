@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MytripUser</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <color name="colour_black">#000</color>
+    <color name="colour_white">#fff</color>
+   <color name="btn_colour">#EEC006</color> 
+    
+    <string-array name="vehicle_type">
+        <item>Travaller</item>
+        <item>Taxi</item>
+        <item>Rickshaw</item>
+        
+	</string-array>
+
+</resources>
