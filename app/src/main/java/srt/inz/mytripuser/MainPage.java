@@ -47,7 +47,7 @@ public class MainPage extends Activity {
 				sun=eun.getText().toString();
 				spas=eps.getText().toString();
 				
-				SharedPreferences share=getSharedPreferences("mKey", MODE_WORLD_READABLE);
+				SharedPreferences share=getSharedPreferences("mKey", MODE_APPEND);
 				SharedPreferences.Editor ed=share.edit();
 				ed.putString("keyuid", sun);
 				ed.commit();
